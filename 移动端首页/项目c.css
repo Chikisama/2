@@ -1,0 +1,440 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #11120d;
+	text-decoration: none;
+}
+html {
+	font-size: 100px;
+}
+body {
+	background-color: #f6f6f6;
+}
+header {
+	height: 0.8rem;
+}
+header nav {
+	height: 0.8rem;
+	width: 100%;
+	position: absolute;
+}
+.logo {
+	position: absolute;
+}
+nav img {
+	float: left;
+	margin: 0.2rem 0 0 0.3rem;
+	width: 1.6rem;
+}
+.login {
+	height: 0.8rem;
+	line-height: 0.8rem;
+	float: right;
+	font-size: 0.12rem;
+	position: absolute;
+	right: 0.30rem;
+}
+.space {
+	display: inline-block;
+	width: 0.02rem;
+	height: 0.12rem;
+	background-color: #8b8c8b;
+	position: relative;
+	top: 0.01rem;
+	right: 0;
+	margin: 0 0.12rem;
+}
+#adshow {
+	width: 6.90rem;
+	height: 4.00rem;
+	margin: 0 auto;
+}
+#photos{
+	width: 6.90rem;
+	height: 4.00rem;
+}
+.pictures{
+    position: absolute;
+    width:6.9rem;
+	height:4rem;
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.pictures img {
+	width: 9rem;
+}
+#buttons{
+    position: absolute;
+    margin-top: -0.45rem;
+    margin-left:3.00rem;
+    z-index: 4;
+    text-align: center;
+}
+.button{
+    width: 0.15rem;
+    height: 0.15rem;
+    background-color:white;
+    border-radius: 50%;
+    float:left;
+    margin-right: 0.30rem;
+    cursor: pointer;
+}
+.app,.applist {
+	height: 1.6rem;
+}
+.app {
+	margin: 0.6rem 0 0.5rem;
+	padding: 0 0.3rem;
+}
+.applist li {
+	display: inline-block;
+	float: left;
+	margin: 0 0.28rem;
+}
+.applist p {
+	font-size: 0.16rem;
+	font-family: "方正黑体简体";
+	text-align: center;
+	position: relative;
+	bottom: 0.18rem;
+}
+.applist img {
+	width: 1.15rem;
+}
+.ad {
+	width: 7.5rem;
+}
+.tit {
+	width: 2rem;
+	margin: 0 auto 0.45rem;
+	font-size: 0.4rem;
+}
+.tit img {
+	display: inline-block;
+	width: 0.2rem;
+	margin-top: 0.08rem;
+}
+.webclass {
+	width: 6.96rem;
+	height: 4.7rem;
+	margin: 0 auto 0.75rem;
+}
+.webclass div {
+	float: left;
+}
+.w1 {
+	width: 4.06rem;
+	height: 2.3rem;
+	margin: 0 0.1rem 0.1rem 0;
+	color: white;
+	font-size: 0.3rem;
+}
+.w2{
+	width: 2.8rem;
+	height: 2.3rem;
+	color: white;
+	font-size: 0.3rem;
+}
+.w1 a,.w2 a{
+	font-size: 0.25rem;
+	background-color: white;
+	border-radius: 0.05rem;
+	margin-left: 0.8rem;
+	display: block;
+	width: 1.32rem;
+	height: 0.42rem;
+	text-align: center;
+	line-height: 0.42rem;
+}
+.w1 span {
+	display: block;
+	width: 2.4rem;
+	height: 0.7rem;
+	margin: 0.5rem 0 0.2rem 0.8rem;
+}
+.w2 span {
+	display: block;
+	width: 1.9rem;
+	height: 0.7rem;
+	margin: 0.5rem 0 0.2rem 0.8rem;
+}
+.lad {
+	width: 6.9rem;
+	height: 1.8rem;
+	margin: 0 auto 0.8rem;
+	background: url(img/10.jpg) no-repeat center;
+	background-size: 6.9rem;
+	position: relative;
+}
+.stip1 {
+	color: white;
+	display: block;
+	height: 0.33rem;
+	font-size: 0.25rem;
+	vertical-align: top;
+	position: relative;
+	top: 0.4rem;
+	left: 0.3rem;
+}
+.stip2 {
+	display: inline-block;
+	background-color: white;
+	color: #924e39;
+	border-radius: 0.05rem;
+	font-size: 0.2rem;
+	padding: 0 0.1rem;
+	height: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	vertical-align: top;
+	margin: 0.55rem 0 0 0.3rem;
+}
+.lad a {
+	color: white;
+	font-size: 0.25rem;
+	background-color: #ff9a16;
+	border-radius: 1rem;
+	display: inline-block;
+	width: 1.52rem;
+	height: 0.42rem;
+	text-align: center;
+	line-height: 0.42rem;
+	position: absolute;
+	right: 0.2rem;
+	bottom: 0.12rem;
+}
+.speech,.ortschool {
+	width: 6.9rem;
+	margin: 0 auto 0.8rem;
+}
+.splist,.ortlist {
+	width: 6.9rem;
+	height: 2.02rem;
+	margin-bottom: 0.2rem;
+	border-radius: 0.1rem;
+	background-color: white;
+	box-shadow: 0 0 0.1rem rgba(0,0,0,0.3);
+}
+.speech img {
+	width: 2.02rem;
+	border-radius: 0.1rem 0 0 0.1rem;
+}
+.spbox,.ortbox {
+	width: 4.86rem;
+	height: 2.02rem;
+	float: right;
+	border-radius: 0 0.1rem 0.1rem 0;
+}
+.spbox span,.ortbox span {
+	display: block;
+	vertical-align: top;
+}
+.spbox a {
+	color: white;
+	font-size: 0.22rem;
+	background-color: #ff9a16;
+	border-radius: 1rem;
+	display: inline-block;
+	width: 1.5rem;
+	height: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	float: right;
+	position: relative;
+	bottom: 0.42rem;
+	left: 2rem;
+}
+.timem {
+	width: 2.1rem;
+	height: 0.42rem;
+	border-radius: 0.08rem;
+	background-color: #fff2e2;
+	margin-left: 0.3rem;
+	padding-left: 0.17rem;
+	line-height: 0.42rem; 
+}
+.timeitem {
+	width: 1.1rem;
+	height: 0.32rem;
+	float: right;
+	padding: 0.05rem  0.08rem 0.05rem 0;
+	font-size: 0.18rem;
+	color: #fff;
+	text-align: center;
+}
+#h,#min,#sec,#h1,#min1,#sec1 {
+	display: inline-block;
+	float: left;
+	width: 0.32rem;
+	height: 0.32rem;
+	line-height: 0.32rem;
+	background-color: #ff9a16;
+	border-radius: 0.05rem;
+	vertical-align: top;
+}
+.sep {
+	display: inline-block;
+	float: left;
+	color: #ff9a16;
+	height: 0.32rem;
+	line-height: 0.32rem;
+}
+.teacher {
+	margin: 1.25rem auto;
+	width: 6.9rem;
+	height: 3.13rem;
+}
+.teabox {
+	float: left;
+	margin-left: 0.1rem;
+	position: relative;
+	width: 2.17rem;
+	height: 3.13rem;
+	background-color: white;
+}
+.tou {
+	width: 1.4rem;
+	height: 1.4rem;
+	overflow: hidden;
+	border-radius: 50%;
+	border: #fff solid 0.05rem;
+	position: absolute;
+	top: -0.7rem;
+	left: 0.4rem;
+}
+.teabox img {
+	width: 1.4rem;
+}
+.teatit {
+	margin-top: 0.85rem;
+	text-align: center;
+	font-size: 0.25rem;
+	color: #ff9a16;
+}
+.teacon {
+	color: #11120d;
+	margin-top: 0.1rem;
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.teabox a {
+	color: white;
+	font-size: 0.22rem;
+	background-color: #ff9a16;
+	border-radius: 1rem;
+	display: inline-block;
+	width: 1.4rem;
+	height: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	position: relative;
+	bottom: 0.5rem;
+	left: 0.4rem;
+}
+.teabox span,.ortbox span {
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.ortlist img {
+	width: 1.7rem;
+	margin: 0.17rem;
+}
+footer {
+	width: 100%;
+	height: 0.63rem;
+	padding: 0.45rem 0;
+	background-color: #3d3d3d;
+	text-align: center;
+	font-size: 0.12rem;
+	color: #fff;
+}
+footer span {
+	display: block;
+	line-height: 0.22rem;
+	
+}
+
+
+
+
+#background {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 0.16rem;
+	z-index: 5;
+}
+#login {
+	width: 5.4rem;
+	height: 3.8rem;
+	background-color: #eaeff1;
+	margin: 0.3rem auto;
+	overflow: auto;
+	box-shadow: 0.128rem 0.128rem 0 #bec2d0;
+}
+input[type="text"],input[type="password"] {
+	box-sizing: border-box;
+	display: inline-block;
+	float: right;
+	font-size: 0.0352rem;
+	height: 0.3rem;
+	width: 1.92rem;
+	margin: 0.08rem 0 0.2rem 0;
+	-webkit-appearance:none;
+	-moz-appearance: none;   /*将input输入框的默认样式去掉*/
+	border: 0;
+	outline: 0;
+	padding-left: 0.24rem;
+	cursor: pointer;
+	box-shadow: 0.04rem 0.04rem 0.048rem rgba(190,194,208,0.5);
+} 
+input[type="text"]:focus,input[type="password"]:focus {
+  	border:0.016rem solid #fd9552;
+}
+.smbox {
+	position: absolute;
+	margin: 0.304rem 0 0 0.2rem;
+}
+.bu {
+	position: absolute;
+	margin: 1.9rem 0 0 0.16rem;
+}
+input[type="submit"] {
+	color: #fff;
+	font: 400 0.12rem "微软雅黑";
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+	height: 0.3rem;
+	width: 1.92rem;
+	margin: 0.05rem 0.048rem 0;
+	-webkit-appearance:none;
+	-moz-appearance: none;   /*将input输入框的默认样式去掉*/
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	background-color: #fd9552;
+	border-radius: 0.05rem;
+	box-shadow: 0 0.04rem 0.048rem rgba(253,149,82,0.5);
+} 
+.msg {
+	display: block;
+	color: red;
+	width: 2rem;
+	height: 0.16rem;
+	font-size: 0.12rem;
+	text-align: center;
+	margin: 0 auto;
+}
